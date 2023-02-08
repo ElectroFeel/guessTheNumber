@@ -1,9 +1,9 @@
 'use strict';
 
 
-var secretNumber;
-var highScore = 0;
-var scoreValue = 20;
+let secretNumber;
+let highScore = 0;
+let scoreValue = 20;
 
 function setSecretNumber() {
     secretNumber = Math.floor(Math.random() * 20) + 1;
